@@ -1,9 +1,7 @@
-// vite.config.js
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/bmi-calculator/', // 👈 your repo name here
-});
-
+  base: "/Basic-Calculator/", // 👈 very important for GitHub Pages
+})
